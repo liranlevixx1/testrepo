@@ -13,7 +13,7 @@
         const designation = document.getElementById('designation').value;
         const productType = document.getElementById('productType').value;
         const feedback = document.getElementById('feedbackText').value;
-    
+        const userExp = document.getElementById('userExperince').value;
         //once submitted assign the html element with the user's inputs
         document.getElementById('userName').innerHTML = username;
         document.getElementById('userAge').innerHTML = age;
@@ -22,6 +22,7 @@
         document.getElementById('userDesignation').innerHTML = designation;
         document.getElementById('userProductChoice').innerHTML = productType;
         document.getElementById('userFeedback').innerHTML = feedback;
+        document.getElementById('userExp').innerHTML = userExp;
         //Alerting that a submition has been made
         alert('Thank you for your valuable feedback')
         //make the user details div visible as a block once the function runs
